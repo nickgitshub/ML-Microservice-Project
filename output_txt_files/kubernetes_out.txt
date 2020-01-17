@@ -1,1 +1,11 @@
-<paste log output from Kubernetes-mediated prediction, here>
+##Note: I already had the running when I re-ran the Kubernetes script.
+
+
+(.devops) Nicks-MacBook-Pro:ML-Microservice-Project nickmiller$ ./run_kubernetes.sh 
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "prediction-app" already exists
+NAME                              READY   STATUS    RESTARTS   AGE
+prediction-app-587cff58bb-d54g9   1/1     Running   1          4d16h
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
