@@ -12,5 +12,5 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 prediction
+docker run -p 8000:80 dashernick/devops-engineer-project-4:prediction
 
