@@ -1,5 +1,3 @@
-<include a CircleCI status badge, here>
-
 [![nickgitshub](https://circleci.com/gh/nickgitshub/ML-Microservice-Project.svg?style=svg)](https://github.com/nickgitshub/ML-Microservice-Project)
 
 ## Project Overview
