@@ -14,10 +14,9 @@ kubectl run --image=dashernick/devops-engineer-project-4:prediction prediction-a
 # List kubernetes pods
 kubectl get pods
 
-pod_name=$(kubectl describe pod | grep -E '\bName\:' | sed 's/Name\: *\(.*\)/\1/')
-
 # Step 4:
 # Forward the container port to a host
+pod_name=$(kubectl describe pod | grep -E '\bName\:' | sed 's/Name\: *\(.*\)/\1/')
 kubectl port-forward $pod_name 8000:80
 
 
