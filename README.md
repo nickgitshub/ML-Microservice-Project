@@ -1,4 +1,4 @@
-[![nickgitshub](https://circleci.com/gh/nickgitshub/ML-Microservice-Project.svg?style=svg)](https://github.com/nickgitshub/ML-Microservice-Project)
+[![nickgitshub](https://circleci.com/gh/nickgitshub/ML-Microservice-Project.svg?style=svg)](https://circleci.com/gh/nickgitshub/ML-Microservice-Project)
 
 ## Project Overview
 

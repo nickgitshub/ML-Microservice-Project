@@ -5,12 +5,15 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=dashernick/devops-engineer-project-4:prediction
+dockerpath=dashernick/devops-engineer-project-4
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login 
+docker tag $dockerpath dashernick/devops-engineer-project-4:prediction
+
 
 # Step 3:
 # Push image to a docker repository
-docker push dashernick/devops-engineer-project-4:prediction
+docker push dashernick/devops-engineer-project-4

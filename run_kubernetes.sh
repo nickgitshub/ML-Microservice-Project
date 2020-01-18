@@ -8,7 +8,7 @@
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run --image=dashernick/devops-engineer-project-4:prediction prediction-app --port=80
+kubectl run --image=dashernick/devops-engineer-project-4 prediction-app --port=80
 
 # Step 3:
 # List kubernetes pods

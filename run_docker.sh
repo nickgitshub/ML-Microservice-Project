@@ -4,7 +4,7 @@
 
 # Step 1:
 # Build image and add a descriptive tag
-docker build --tag=dashernick/devops-engineer-project-4:prediction .
+docker build --tag=dashernick/devops-engineer-project-4 .
 
 # Step 2: 
 # List docker images
@@ -12,5 +12,5 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -p 8000:80 dashernick/devops-engineer-project-4:prediction
+docker run -p 8000:80 dashernick/devops-engineer-project-4
 
