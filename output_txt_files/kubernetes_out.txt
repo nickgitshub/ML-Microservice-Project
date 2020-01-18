@@ -1,5 +1,5 @@
 
-##run_kubernetes script (Note: I already had the running when I re-ran the Kubernetes script.)
+##run_kubernetes script (Note: I already had the pod running when I re-ran the Kubernetes script.)
 (.devops) Nicks-MacBook-Pro:ML-Microservice-Project nickmiller$ ./run_kubernetes.sh 
 kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
 Error from server (AlreadyExists): deployments.apps "prediction-app" already exists
